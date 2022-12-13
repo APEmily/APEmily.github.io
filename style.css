@@ -1,5 +1,5 @@
 body{
-        font: 1.5px/1.5arial, helvetica, sans-serif;
+        font: 1.5px/1.5pxarial, helvetica, sans-serif;
         padding: 0;
         margin: 0;
         background-color: #f4f4f4;
@@ -19,11 +19,19 @@ body{
     
     .button_1{
         height:38px;
-        background: #e8491d;
+        background: #ba9fbf;
         border: 0;
         padding-left: 20px;
         padding-right: 20px;
         color: #ffffff;
+    }
+    
+    .dark{
+        padding:15px;
+        background: #614051;
+        color: #ffffff;
+        margin-top:10px;
+        margin-bottom:10px;
     }
     
     /*header**/
@@ -32,7 +40,7 @@ body{
         color: #ffffff;
         padding-top: 30px;
         min-height: 70px;
-        border-bottom: e8491d 3px solid;
+        border-bottom: #ba9fbf 3px solid;
     }
     
     header a{
@@ -62,7 +70,7 @@ body{
     }
     
     header .highlight, header .current a{
-        color: #e8491d;
+        color: #ba9fbf;
         font-weight: bold;
     }
     
@@ -74,7 +82,7 @@ body{
     /* showcase */
     #showcase{
         min-height: 400px;
-        background :url('../img/showcase.jpg') no repeat 0-400px;
+        background: url('../img/background.jpg') no repeat 0-400px;
         text-align: center;
         color: #ffffff;
     }
@@ -105,7 +113,7 @@ body{
         margin-top: 15px;
     }
     
-    #newsletter input[type = "song"]{
+    #newsletter input[type = "hobby"]{
         padding:4px;
         height:25px;
         width: 250px;
@@ -113,7 +121,7 @@ body{
     
     /* boxes*/
     #boxes{
-        bargin-top:20px;
+        margin-top:20px;
     }
     
     #boxes .box{
@@ -130,33 +138,33 @@ body{
     /*sidebar*/
     aside#sidebar{
         float: right;
-        widht: 30%;
+        width: 30%;
         margin-top: 10px;
     }
     
     /*main-col*/
     article#main-col{
         float: left;
-        width: 65;
+        width: 60%;
     }
     
     footer{
         padding:20px;
         margin-top:20px;
         color: #ffffff;
-        background-color:#e8491d;
+        background-color:#ba9fbf;
         text-align: center;
     }
     
-    @media(max-widt:768px){
+    @media(max-width:768px){
         header #branding,
         header nav,
         header nav li,
         #newsletter h1,
         #newsletter form, 
         #boxes .box,
-        article#main-col,
-        aside#sidebar{
+        article #main-col,
+        aside #sidebar{
             float: none;
             text-align: center;
             width: 100%;
@@ -165,4 +173,24 @@ body{
         header{
             padding-bottom: 20px;
         }
+    }
+    
+    #showcase h1{
+        margin-top:10px;
+    }
+    
+    #newsletter button{
+        display: block;
+        width: 100%;
+    }
+    
+    #newsletter form input[type = "song"]{
+        blo
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    #newsletter form input[type = "movie"]{
+        width: 100%;
+        margin-bottom: 10px;
     }
