@@ -82,7 +82,7 @@ body{
     /* showcase */
     #showcase{
         min-height: 400px;
-        background: url('../img/background.jpg') no repeat 0-400px;
+        background-image: url('../img/background.jpg');
         text-align: center;
         color: #ffffff;
     }
