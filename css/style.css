@@ -185,12 +185,16 @@ body{
     }
     
     #newsletter form input[type = "song"]{
-        blo
         width: 100%;
         margin-bottom: 10px;
     }
     
     #newsletter form input[type = "movie"]{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    #newsletter form input[type = "secret"]{
         width: 100%;
         margin-bottom: 10px;
     }
