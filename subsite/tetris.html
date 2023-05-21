@@ -39,7 +39,7 @@ function getRandomInt(min, max) {
     const name = sequence.splice(rand, 1)[0]; 
     tetrominoSequence.push(name); 
   }
-} 
+}
 
 //get the next tetromino in the sequence
 function getNextTetromino() {
@@ -253,8 +253,7 @@ const playfield = [];
         placeTetromino(); 
         return; 
       } 
-    tetromino.row = row;
-     
+      tetromino.row = row;
     }
   }
 }
