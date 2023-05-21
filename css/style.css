@@ -5,6 +5,12 @@ body{
         background-color: #f4f4f4;
     }
 
+    canvas {
+        display: block;
+        margin:0 auto;
+        background: #000;
+    }
+
     /*global**/
     .container{
         width: 80%;
